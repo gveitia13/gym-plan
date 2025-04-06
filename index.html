@@ -6,344 +6,346 @@
     <link rel="stylesheet" href="static/lib/bootstrap/css/bootstrap.min.css">
 </head>
 <body>
-<div class="container">
-    <br>
-    <ul class="nav nav-tabs" id="myTab" role="tablist">
-        <li class="nav-item" role="presentation">
-            <button class="nav-link active" id="pecho" data-bs-toggle="tab" data-bs-target="#pecho-pane"
-                    type="button" role="tab" aria-controls="pecho-pane" aria-selected="true">Pecho
-            </button>
-        </li>
-        <li class="nav-item" role="presentation">
-            <button class="nav-link" id="biceps" data-bs-toggle="tab" data-bs-target="#biceps-pane"
-                    type="button" role="tab" aria-controls="biceps-pane" aria-selected="false">Biceps
-            </button>
-        </li>
-        <li class="nav-item" role="presentation">
-            <button class="nav-link" id="piernas" data-bs-toggle="tab" data-bs-target="#piernas-pane"
-                    type="button" role="tab" aria-controls="piernas-pane" aria-selected="false">Piernas
-            </button>
-        </li>
-        <li class="nav-item" role="presentation">
-            <button class="nav-link" id="espalda" data-bs-toggle="tab" data-bs-target="#espalda-pane"
-                    type="button" role="tab" aria-controls="espalda-pane" aria-selected="false">Espalda
-            </button>
-        </li>
-        <li class="nav-item" role="presentation">
-            <button class="nav-link" id="triceps" data-bs-toggle="tab" data-bs-target="#triceps-pane"
-                    type="button" role="tab" aria-controls="triceps-pane" aria-selected="false">Triceps
-            </button>
-        </li>
-    </ul>
-    <div class="tab-content" id="myTabContent">
-        <div class="tab-pane fade show active" id="pecho-pane" role="tabpanel" aria-labelledby="pecho"
-             tabindex="0">
-            <div class="table-responsive">
-                <table class="table">
-                    <thead>
-                    <tr>
-                        <th scope="col">Orden</th>
-                        <th scope="col">Ejercicio</th>
-                        <th scope="col">Tandas</th>
-                        <th scope="col">Repeticiones</th>
-                        <th scope="col">Info extra</th>
-                    </tr>
-                    </thead>
-                    <tbody>
-                    <tr>
-                        <th>1</th>
-                        <th scope="row">Prom inclinado</th>
-                        <td>8</td>
-                        <td>6-8 al fallo</td>
-                        <td>Hacer 2 normal, 4 al fallo y 2 normal</td>
-                    </tr>
-                    <tr>
-                        <th>2</th>
-                        <th scope="row">Apertura con mancuernas inclinado</th>
-                        <td>4</td>
-                        <td>6-8 al fallo</td>
-                        <td>Si no hay peso para hacer máximo 8, hacer infinito al fallo</td>
-                    </tr>
-                    <tr>
-                        <th>3</th>
-                        <th scope="row">Prom recto</th>
-                        <td>4</td>
-                        <td>6-8 al fallo</td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <th>4</th>
-                        <th scope="row">Paralelas con planchas</th>
-                        <td>4</td>
-                        <td>10-12</td>
-                        <td>Hacer superseries (combinar los ejercicios)</td>
-                    </tr>
+<main>
+    <div class="container-fluid">
+        <br>
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="pecho" data-bs-toggle="tab" data-bs-target="#pecho-pane"
+                        type="button" role="tab" aria-controls="pecho-pane" aria-selected="true">Pecho
+                </button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="biceps" data-bs-toggle="tab" data-bs-target="#biceps-pane"
+                        type="button" role="tab" aria-controls="biceps-pane" aria-selected="false">Biceps
+                </button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="piernas" data-bs-toggle="tab" data-bs-target="#piernas-pane"
+                        type="button" role="tab" aria-controls="piernas-pane" aria-selected="false">Piernas
+                </button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="espalda" data-bs-toggle="tab" data-bs-target="#espalda-pane"
+                        type="button" role="tab" aria-controls="espalda-pane" aria-selected="false">Espalda
+                </button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="triceps" data-bs-toggle="tab" data-bs-target="#triceps-pane"
+                        type="button" role="tab" aria-controls="triceps-pane" aria-selected="false">Triceps
+                </button>
+            </li>
+        </ul>
+        <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="pecho-pane" role="tabpanel" aria-labelledby="pecho"
+                 tabindex="0">
+                <div class="table-responsive">
+                    <table class="table">
+                        <thead>
+                        <tr>
+                            <th scope="col">Orden</th>
+                            <th scope="col">Ejercicio</th>
+                            <th scope="col">Tandas</th>
+                            <th scope="col">Repeticiones</th>
+                            <th scope="col">Info extra</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <th>1</th>
+                            <th scope="row">Prom inclinado</th>
+                            <td>8</td>
+                            <td>6-8 al fallo</td>
+                            <td>Hacer 2 normal, 4 al fallo y 2 normal</td>
+                        </tr>
+                        <tr>
+                            <th>2</th>
+                            <th scope="row">Apertura con mancuernas inclinado</th>
+                            <td>4</td>
+                            <td>6-8 al fallo</td>
+                            <td>Si no hay peso para hacer máximo 8, hacer infinito al fallo</td>
+                        </tr>
+                        <tr>
+                            <th>3</th>
+                            <th scope="row">Prom recto</th>
+                            <td>4</td>
+                            <td>6-8 al fallo</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <th>4</th>
+                            <th scope="row">Paralelas con planchas</th>
+                            <td>4</td>
+                            <td>10-12</td>
+                            <td>Hacer superseries (combinar los ejercicios)</td>
+                        </tr>
 
-                    <tr>
-                        <th>5</th>
-                        <th scope="row">Prom inclinado con mancuernas</th>
-                        <td>4</td>
-                        <td>6-8 al fallo</td>
-                        <td>Si no hay peso para hacer máximo 8, hacer infinito al fallo</td>
-                    </tr>
-                    <tr>
-                        <th>6</th>
-                        <th scope="row">Pull over</th>
-                        <td>4</td>
-                        <td>6-8 al fallo</td>
-                        <td>Si no hay peso para hacer máximo 8, hacer infinito al fallo</td>
-                    </tr>
-                    </tbody>
-                </table>
+                        <tr>
+                            <th>5</th>
+                            <th scope="row">Prom inclinado con mancuernas</th>
+                            <td>4</td>
+                            <td>6-8 al fallo</td>
+                            <td>Si no hay peso para hacer máximo 8, hacer infinito al fallo</td>
+                        </tr>
+                        <tr>
+                            <th>6</th>
+                            <th scope="row">Pull over</th>
+                            <td>4</td>
+                            <td>6-8 al fallo</td>
+                            <td>Si no hay peso para hacer máximo 8, hacer infinito al fallo</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
             </div>
-        </div>
-        <div class="tab-pane fade" id="biceps-pane" role="tabpanel" aria-labelledby="biceps" tabindex="0">
-            <div class="table-responsive">
-                <table class="table">
-                    <thead>
-                    <tr>
-                        <th scope="col">Orden</th>
-                        <th scope="col">Ejercicio</th>
-                        <th scope="col">Tandas</th>
-                        <th scope="col">Repeticiones</th>
-                        <th scope="col">Info extra</th>
-                    </tr>
-                    </thead>
-                    <tbody>
-                    <tr>
-                        <th>1</th>
-                        <th scope="row">Biceps con barra</th>
-                        <td>8</td>
-                        <td>6-8 al fallo</td>
-                        <td>Hacer 2 normal, 4 al fallo y 2 normal</td>
-                    </tr>
-                    <tr>
-                        <th>2</th>
-                        <th scope="row">Biceps predicador con mancuernas o barra</th>
-                        <td>4</td>
-                        <td>6-8 al fallo</td>
-                        <td>Si no hay peso para hacer máximo 8, hacer infinito al fallo</td>
-                    </tr>
-                    <tr>
-                        <th>3</th>
-                        <th scope="row">Biceps con rondana con una mano || Martillo con mancuerna</th>
-                        <td>4</td>
-                        <td>6-8 al fallo</td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <th>4</th>
-                        <th scope="row">Biceps con mancuerna sentado</th>
-                        <td>4</td>
-                        <td>6-8</td>
-                        <td>Si no hay peso para hacer máximo 8, hacer infinito al fallo</td>
-                    </tr>
-                    <tr>
-                        <th>5</th>
-                        <th scope="row">Trapecio</th>
-                        <td>4</td>
-                        <td>6-8 al fallo</td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <th>6</th>
-                        <th scope="row">Biceps con mancuernas alterno</th>
-                        <td>4</td>
-                        <td>6-8 al fallo</td>
-                        <td>Si no hay peso para hacer máximo 8, hacer infinito al fallo</td>
-                    </tr>
-                    </tbody>
-                </table>
+            <div class="tab-pane fade" id="biceps-pane" role="tabpanel" aria-labelledby="biceps" tabindex="0">
+                <div class="table-responsive">
+                    <table class="table">
+                        <thead>
+                        <tr>
+                            <th scope="col">Orden</th>
+                            <th scope="col">Ejercicio</th>
+                            <th scope="col">Tandas</th>
+                            <th scope="col">Repeticiones</th>
+                            <th scope="col">Info extra</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <th>1</th>
+                            <th scope="row">Biceps con barra</th>
+                            <td>8</td>
+                            <td>6-8 al fallo</td>
+                            <td>Hacer 2 normal, 4 al fallo y 2 normal</td>
+                        </tr>
+                        <tr>
+                            <th>2</th>
+                            <th scope="row">Biceps predicador con mancuernas o barra</th>
+                            <td>4</td>
+                            <td>6-8 al fallo</td>
+                            <td>Si no hay peso para hacer máximo 8, hacer infinito al fallo</td>
+                        </tr>
+                        <tr>
+                            <th>3</th>
+                            <th scope="row">Biceps con rondana con una mano || Martillo con mancuerna</th>
+                            <td>4</td>
+                            <td>6-8 al fallo</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <th>4</th>
+                            <th scope="row">Biceps con mancuerna sentado</th>
+                            <td>4</td>
+                            <td>6-8</td>
+                            <td>Si no hay peso para hacer máximo 8, hacer infinito al fallo</td>
+                        </tr>
+                        <tr>
+                            <th>5</th>
+                            <th scope="row">Trapecio</th>
+                            <td>4</td>
+                            <td>6-8 al fallo</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <th>6</th>
+                            <th scope="row">Biceps con mancuernas alterno</th>
+                            <td>4</td>
+                            <td>6-8 al fallo</td>
+                            <td>Si no hay peso para hacer máximo 8, hacer infinito al fallo</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
             </div>
-        </div>
-        <div class="tab-pane fade" id="piernas-pane" role="tabpanel" aria-labelledby="piernas" tabindex="0">
-            <div class="table-responsive">
-                <table class="table">
-                    <thead>
-                    <tr>
-                        <th scope="col">Orden</th>
-                        <th scope="col">Ejercicio</th>
-                        <th scope="col">Tandas</th>
-                        <th scope="col">Repeticiones</th>
-                        <th scope="col">Info extra</th>
-                    </tr>
-                    </thead>
-                    <tbody>
-                    <tr>
-                        <th>1</th>
-                        <th scope="row">Sentadillas con barra</th>
-                        <td>8</td>
-                        <td>6-8 al fallo</td>
-                        <td>Hacer 2 normal, 4 al fallo y 2 normal</td>
-                    </tr>
-                    <tr>
-                        <th>2</th>
-                        <th scope="row">Prensa</th>
-                        <td>4</td>
-                        <td>8-10 al fallo</td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <th>3</th>
-                        <th scope="row">Cuádrices || Búlgaras</th>
-                        <td>4</td>
-                        <td>6-8 al fallo</td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <th>4</th>
-                        <th scope="row">Femoral || Caminata búlgara</th>
-                        <td>4</td>
-                        <td>6-8</td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <th>5</th>
-                        <th scope="row">Pantorrilla</th>
-                        <td>4</td>
-                        <td>6-8 al fallo</td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <th>6</th>
-                        <th scope="row">Sentadillas zumo</th>
-                        <td>4</td>
-                        <td>6-8 al fallo</td>
-                        <td>Si no hay peso para hacer máximo 8, hacer infinito al fallo</td>
-                    </tr>
-                    </tbody>
-                </table>
+            <div class="tab-pane fade" id="piernas-pane" role="tabpanel" aria-labelledby="piernas" tabindex="0">
+                <div class="table-responsive">
+                    <table class="table">
+                        <thead>
+                        <tr>
+                            <th scope="col">Orden</th>
+                            <th scope="col">Ejercicio</th>
+                            <th scope="col">Tandas</th>
+                            <th scope="col">Repeticiones</th>
+                            <th scope="col">Info extra</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <th>1</th>
+                            <th scope="row">Sentadillas con barra</th>
+                            <td>8</td>
+                            <td>6-8 al fallo</td>
+                            <td>Hacer 2 normal, 4 al fallo y 2 normal</td>
+                        </tr>
+                        <tr>
+                            <th>2</th>
+                            <th scope="row">Prensa</th>
+                            <td>4</td>
+                            <td>8-10 al fallo</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <th>3</th>
+                            <th scope="row">Cuádrices || Búlgaras</th>
+                            <td>4</td>
+                            <td>6-8 al fallo</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <th>4</th>
+                            <th scope="row">Femoral || Caminata búlgara</th>
+                            <td>4</td>
+                            <td>6-8</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <th>5</th>
+                            <th scope="row">Pantorrilla</th>
+                            <td>4</td>
+                            <td>6-8 al fallo</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <th>6</th>
+                            <th scope="row">Sentadillas zumo</th>
+                            <td>4</td>
+                            <td>6-8 al fallo</td>
+                            <td>Si no hay peso para hacer máximo 8, hacer infinito al fallo</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
             </div>
-        </div>
-        <div class="tab-pane fade" id="espalda-pane" role="tabpanel" aria-labelledby="espalda" tabindex="0">
-            <div class="table-responsive">
-                <table class="table">
-                    <thead>
-                    <tr>
-                        <th scope="col">Orden</th>
-                        <th scope="col">Ejercicio</th>
-                        <th scope="col">Tandas</th>
-                        <th scope="col">Repeticiones</th>
-                        <th scope="col">Info extra</th>
-                    </tr>
-                    </thead>
-                    <tbody>
-                    <tr>
-                        <th>1</th>
-                        <th scope="row">Barras</th>
-                        <td>4</td>
-                        <td>8-10 al fallo</td>
-                        <td>Si se pasa de 10, hacer con peso</td>
-                    </tr>
-                    <tr>
-                        <th>2</th>
-                        <th scope="row">Espalda rondana</th>
-                        <td>8</td>
-                        <td>6-8 al fallo</td>
-                        <td>Hacer 2 normal, 4 al fallo y 2 normal</td>
-                    </tr>
-                    <tr>
-                        <th>3</th>
-                        <th scope="row">Remo rondana</th>
-                        <td>4</td>
-                        <td>6-8 al fallo</td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <th>4</th>
-                        <th scope="row">Peso muerto con barra</th>
-                        <td>4</td>
-                        <td>6-8 al fallo</td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <th>5</th>
-                        <th scope="row">Espalda con barra</th>
-                        <td>4</td>
-                        <td>6-8 al fallo</td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <th>6</th>
-                        <th scope="row">Serrucho con mancuerna</th>
-                        <td>4</td>
-                        <td>6-8 al fallo</td>
-                        <td>Si se pasa de 8, hacer infinito al fallo</td>
-                    </tr>
+            <div class="tab-pane fade" id="espalda-pane" role="tabpanel" aria-labelledby="espalda" tabindex="0">
+                <div class="table-responsive">
+                    <table class="table">
+                        <thead>
+                        <tr>
+                            <th scope="col">Orden</th>
+                            <th scope="col">Ejercicio</th>
+                            <th scope="col">Tandas</th>
+                            <th scope="col">Repeticiones</th>
+                            <th scope="col">Info extra</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <th>1</th>
+                            <th scope="row">Barras</th>
+                            <td>4</td>
+                            <td>8-10 al fallo</td>
+                            <td>Si se pasa de 10, hacer con peso</td>
+                        </tr>
+                        <tr>
+                            <th>2</th>
+                            <th scope="row">Espalda rondana</th>
+                            <td>8</td>
+                            <td>6-8 al fallo</td>
+                            <td>Hacer 2 normal, 4 al fallo y 2 normal</td>
+                        </tr>
+                        <tr>
+                            <th>3</th>
+                            <th scope="row">Remo rondana</th>
+                            <td>4</td>
+                            <td>6-8 al fallo</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <th>4</th>
+                            <th scope="row">Peso muerto con barra</th>
+                            <td>4</td>
+                            <td>6-8 al fallo</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <th>5</th>
+                            <th scope="row">Espalda con barra</th>
+                            <td>4</td>
+                            <td>6-8 al fallo</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <th>6</th>
+                            <th scope="row">Serrucho con mancuerna</th>
+                            <td>4</td>
+                            <td>6-8 al fallo</td>
+                            <td>Si se pasa de 8, hacer infinito al fallo</td>
+                        </tr>
 
-                    </tbody>
-                </table>
+                        </tbody>
+                    </table>
+                </div>
             </div>
-        </div>
-        <div class="tab-pane fade" id="triceps-pane" role="tabpanel" aria-labelledby="triceps" tabindex="0">
-            <div class="table-responsive">
-                <table class="table">
-                    <thead>
-                    <tr>
-                        <th scope="col">Orden</th>
-                        <th scope="col">Ejercicio</th>
-                        <th scope="col">Tandas</th>
-                        <th scope="col">Repeticiones</th>
-                        <th scope="col">Info extra</th>
-                    </tr>
-                    </thead>
-                    <tbody>
-                    <tr>
-                        <th>1</th>
-                        <th scope="row">Triceps con rondana para abajo</th>
-                        <td>8</td>
-                        <td>6-8 al fallo</td>
-                        <td>Hacer 2 normal, 4 al fallo y 2 normal</td>
-                    </tr>
-                    <tr>
-                        <th>2</th>
-                        <th scope="row">Triceps invertido con rondana</th>
-                        <td>4</td>
-                        <td>6-8 al fallo</td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <th>3</th>
-                        <th scope="row">Triceps con soga con rondana</th>
-                        <td>4</td>
-                        <td>6-8 al fallo</td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <th>4</th>
-                        <th scope="row">Triceps francés con barra</th>
-                        <td>4</td>
-                        <td>6-8 al fallo</td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <th>5</th>
-                        <th scope="row">Hombro con barra</th>
-                        <td>4</td>
-                        <td>6-8 al fallo</td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <th>6</th>
-                        <th scope="row">Hombro con mancuerna con una mano</th>
-                        <td>4</td>
-                        <td>6-8 al fallo</td>
-                        <td>Si se pasa de 8, hacer infinito al fallo</td>
-                    </tr>
-                    <tr>
-                        <th>7</th>
-                        <th scope="row">Triceps con barra parado</th>
-                        <td>4</td>
-                        <td>6-8 al fallo</td>
-                        <td></td>
-                    </tr>
+            <div class="tab-pane fade" id="triceps-pane" role="tabpanel" aria-labelledby="triceps" tabindex="0">
+                <div class="table-responsive">
+                    <table class="table">
+                        <thead>
+                        <tr>
+                            <th scope="col">Orden</th>
+                            <th scope="col">Ejercicio</th>
+                            <th scope="col">Tandas</th>
+                            <th scope="col">Repeticiones</th>
+                            <th scope="col">Info extra</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <th>1</th>
+                            <th scope="row">Triceps con rondana para abajo</th>
+                            <td>8</td>
+                            <td>6-8 al fallo</td>
+                            <td>Hacer 2 normal, 4 al fallo y 2 normal</td>
+                        </tr>
+                        <tr>
+                            <th>2</th>
+                            <th scope="row">Triceps invertido con rondana</th>
+                            <td>4</td>
+                            <td>6-8 al fallo</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <th>3</th>
+                            <th scope="row">Triceps con soga con rondana</th>
+                            <td>4</td>
+                            <td>6-8 al fallo</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <th>4</th>
+                            <th scope="row">Triceps francés con barra</th>
+                            <td>4</td>
+                            <td>6-8 al fallo</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <th>5</th>
+                            <th scope="row">Hombro con barra</th>
+                            <td>4</td>
+                            <td>6-8 al fallo</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <th>6</th>
+                            <th scope="row">Hombro con mancuerna con una mano</th>
+                            <td>4</td>
+                            <td>6-8 al fallo</td>
+                            <td>Si se pasa de 8, hacer infinito al fallo</td>
+                        </tr>
+                        <tr>
+                            <th>7</th>
+                            <th scope="row">Triceps con barra parado</th>
+                            <td>4</td>
+                            <td>6-8 al fallo</td>
+                            <td></td>
+                        </tr>
 
-                    </tbody>
-                </table>
+                        </tbody>
+                    </table>
+                </div>
             </div>
         </div>
     </div>
-</div>
+</main>
 </body>
 <script src="static/lib/bootstrap/js/bootstrap.bundle.js"></script>
 </html>
